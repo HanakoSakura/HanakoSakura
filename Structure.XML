@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?scroll version="1.0"?>
+
+<SCROLL type="Unlnown" title="Hanako Sakura Virtual Singer Project" ver="2.0">
+	<voice>
+		<VoiceUnit>
+			<note>Timbre</note>
+			<file_struct>
+				[4]&lt;frequency&gt;
+				[FSIZE-4]&lt;LFPCM DATA&gt;
+			</file_struct>
+		</VoiceUnit>
+		<VoiceTrack>
+			<note>VoiceTrack(Ver 1.0)</note>
+			<file_struct>
+				{ &lt;Pitch&gt;,&lt;Volume&gt;,&lt;Delay,&lt;VoiceUnitName&gt; }
+				...
+			</file_struct>
+		</VoiceTrack>
+		<Change>
+			<note>
+				Export VoiceTrack to WaveTrack.
+			</note>
+		</Change>
+	</voice>
+	<wave>
+		<WaveTrack>
+			<note>LFPCM</note>
+			<file_struct>
+				&lt;IEEE 64 bit floating point&gt;
+			</file_struct>
+		</WaveTrack>
+		<Export>
+			<note>
+				Export LFPCM to WAV
+			</note>
+		</Export>
+		<Remix>
+			<note>
+				Remix some WaveTrack to one/two WaveTrack.
+			</note>
+		</Remix>
+	</wave>
+</SCROLL>
